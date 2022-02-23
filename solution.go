@@ -1,4 +1,4 @@
-package somename
+package square
 
 import (
 	"math"
