@@ -1,4 +1,4 @@
-package solution
+package somename
 
 import (
 	"math"
@@ -15,7 +15,11 @@ import (
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 
-func CalcSquare(sideLen float64, sidesNum int64) float64 {
+type (
+	intCustomType int
+)
+
+func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 	switch {
 	case sidesNum == SidesTriangle.SidesTriangle:
 		return (sideLen * sideLen) / 2
